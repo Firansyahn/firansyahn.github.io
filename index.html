@@ -67,7 +67,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-offset="500" data-aos-duration="3000">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -100,7 +100,7 @@
 
     <!-- Projects -->
     <section id="projects">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-offset="300" data-aos-duration="3000">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>My Projects</h2>
@@ -215,7 +215,9 @@
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
     <!-- End AOS JS -->
 
